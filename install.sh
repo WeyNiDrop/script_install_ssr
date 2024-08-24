@@ -10,15 +10,15 @@ if [ -d "$folder_path" ]; then
     echo "----installed---"
 else
     echo "----install----"
-	apt-get update
-	apt-get install -y git
-	apt-get install -y python
-	apt-get install -y screen
-	screen -S ss
-	cd ~
-	git clone https://github.com/WeyNiDrop/shadowsocksR.git
-	
-	echo "----install success----"
+    apt-get update
+    apt-get install -y git
+    apt-get install -y python
+    apt-get install -y screen
+    screen -S ss
+    cd ~
+    git clone https://github.com/WeyNiDrop/shadowsocksR.git
+    
+    echo "----install success----"
 fi
 
 cd ~/shadowsocksR/shadowsocks
